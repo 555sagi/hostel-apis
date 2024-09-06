@@ -5,9 +5,7 @@ const connection = require('./Connection');
 const admRout  = require('./Routes/Admin')
 app.use(express.json());
 
-/* app.get('/test',(req,res)=>{
-    res.send("<h1>from main page</h1>")
-}) */
+
 app.use(admRout);
 
 app.listen(port,()=>{

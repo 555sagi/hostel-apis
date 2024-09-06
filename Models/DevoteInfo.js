@@ -28,7 +28,7 @@ const DevoteSchema =  new mongoose.Schema({
     userImage:{
         type:Buffer,
         contentType:String,
-        required:false
+        required:true
     }
 
 
